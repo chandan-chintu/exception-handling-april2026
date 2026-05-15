@@ -6,12 +6,12 @@ public class MultipleCatchExample {
         try{
             res =a/b;
             System.out.println("res is : "+res);
-
             String msg1 = "hi hello";
             String msg2 = null;
             System.out.println("msg1 length is : "+msg1.length());
             System.out.println("msg2 length is : "+msg2.length());
         }
+        //// add dummy lines
         catch (ArithmeticException e){
             System.out.println("Exception occurred : "+e.getMessage()+"---"+e.getClass());
         } catch (NullPointerException e){

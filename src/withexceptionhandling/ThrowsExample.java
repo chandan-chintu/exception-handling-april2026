@@ -1,7 +1,6 @@
 package withexceptionhandling;
 
 public class ThrowsExample {
-
     public static void demo() throws IllegalAccessException, InterruptedException {
         int a = 20;
         if(a==10){
@@ -16,6 +15,7 @@ public class ThrowsExample {
         if(a==40){
             throw new InterruptedException("a is 40 and it is checked exception");
         }
+        // add dummy lines
     }
 
     public static void main(String[] args) {
@@ -24,5 +24,6 @@ public class ThrowsExample {
         } catch (Exception e){
             System.out.println("Exception occurred : "+e.getMessage()+"---"+e.getClass());
         }
+        // add dummy lines
     }
 }
